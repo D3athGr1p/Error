@@ -42,3 +42,18 @@ Ver Cluster Port Status Owner Data directory Log file
 ```
 
 ###### Ref Link - [Link](https://stackoverflow.com/questions/65092546/postgresql-invalid-data-directory-cant-open-pid-file-var-run-postgresql-10)
+
+
+### ERROR
+- panic: pq: unknown authentication response: 10 go
+
+### Solution :
+#### Try this:
+```javascript
+sudo -i -u postgres
+psql
+SET password_encryption = 'scram-sha-256';
+ALTER ROLE myuser SET password_encryption = 'scram-sha-256';
+ALTER ROLE myuser WITH PASSWORD 'mypassword';
+```
+###### Ref Link - [Link](https://github.com/lib/pq/issues/817)
