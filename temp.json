@@ -1,0 +1,26 @@
+[
+    {
+        "id": "guild",
+        "title": "Guild",
+        "external": true,
+        "internalWallet": false,
+        "priority": null,
+        "logo": "https://blockscout-content.s3.amazonaws.com/guild.png",
+        "logoDarkMode": null,
+        "shortDescription": "Guild allows you to automatically assign roles to token/NFT holders or create allow lists based on on-chain credentials.",
+        "categories": [
+            "Dev toolings",
+            "NFTs"
+        ],
+        "author": "Guild",
+        "url": "https://guild.xyz/?utm_source=Blockscout",
+        "description": "Guild allows you to automatically assign roles to token/NFT holders or create allow lists based on on-chain credentials.",
+        "site": "https://guild.xyz/?utm_source=Blockscout",
+        "twitter": "https://twitter.com/guildxyz",
+        "telegram": null,
+        "discord": "https://discord.gg/guildxyz",
+        "github": [
+            "https://github.com/guildxyz/guild.xyz"
+        ]
+    }
+]
